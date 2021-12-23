@@ -1,0 +1,16 @@
+body {
+  background-color: #ebf5f7;
+  font-family: "Karla", sans-serif;
+}
+.container {
+  box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.36);
+  width: 50%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 7px;
+  display: flex;
+  /*flex-wrap: wrap;*/
+}
+.column {
+  padding: 1.5rem;
+}
