@@ -1,3 +1,17 @@
 .container {
-  flex-direction: column;
+  max-width: auto;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "a"
+    "b"
+    "c";
+}
+
+.two {
+  border-bottom-left-radius: 0;
+}
+
+.three {
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
 }
